@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- --- Meta Tags --- -->
+    <!-- ---- Meta Tags ---- -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- --- Bootstrap CSS --- -->
+    <!-- ---- Bootstrap CSS ---- -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- ---- Custom CSS ---- -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- ---- Font Awesome ---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Ultra Shopping Center</title>
   </head>
-
   <body>
-    <!-- Nav bar-->
+    <!-- Navbar -->
     <nav class="navbar">
-        <div class="container">
-            <a href="index.html" class="navbar-brand"></a>
-        </div>
-    </nav>
-    <h1>HELLO WORLD!</h1>
+      <div class="container">
+        <a
+          href="index.html"
+          class="navbar-brand d-flex align-items-center justify-content-between"
+        >
+          <img src="images/shopping-bag-icon.png" alt="Site Icon" />
+          <span id="brand-name">ULTRA</span>
+        </a>
 
-    <!-- --- Bootstrap JS --- -->
+        <div class="nav-btns">
+          <button class="btn position-relative">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="badge position-absolute top-0 bg-primary translate-middle start-100">5</span>
+          </button>
+          <button class="btn position-relative">
+            <i class="fa fa-heart"></i>
+            <span class="badge position-absolute top-0 bg-primary translate-middle start-100">2</span>
+          </button>
+          <button class="btn">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ---- Bootstrap JS ---- -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
