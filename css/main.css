@@ -57,7 +57,7 @@ body {
 
 /* <!-- ---- Hero ---- --> */
 #hero{
-    background: url(.../images/banner-img-1.jpg) top/cover;
+    background: url(../images/banner-img-1.jpg) top/cover;
 }
 .carousel-inner h1{
     font-size: 60px;
@@ -79,4 +79,35 @@ body {
     width: 46px;
     height: 46px;
     border-radius: 50%;
+}
+
+/* <!-- ---- Specials ---- --> */
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+
+.special-img:hover img{
+    transform: scale(1.2);
+}
+
+.special-img img{
+    transition: all 0.3s ease;
+}
+
+/* <!-- ---- Specials ---- --> */
+#banner{
+    background: url(../images/offer_img.jpg) center/cover;
+}
+#banner .row{
+    min-height:60vh;
+}
+
+.banner-content span{
+    font-size: 28px;
+}
+
+.banner-content h2{
+    font-size: 60px;
+    font-family: var(--lg-font);
 }
